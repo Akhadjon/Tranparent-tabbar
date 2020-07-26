@@ -9,21 +9,30 @@
 /* Begin PBXBuildFile section */
 		9F3FF80624C4C415003DB024 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FF80524C4C415003DB024 /* AppDelegate.swift */; };
 		9F3FF80824C4C415003DB024 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FF80724C4C415003DB024 /* SceneDelegate.swift */; };
-		9F3FF80A24C4C415003DB024 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FF80924C4C415003DB024 /* ViewController.swift */; };
 		9F3FF80D24C4C415003DB024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3FF80B24C4C415003DB024 /* Main.storyboard */; };
 		9F3FF80F24C4C416003DB024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3FF80E24C4C416003DB024 /* Assets.xcassets */; };
 		9F3FF81224C4C416003DB024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3FF81024C4C416003DB024 /* LaunchScreen.storyboard */; };
+		9F3FF81C24C4C4F0003DB024 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FF81B24C4C4F0003DB024 /* FirstViewController.swift */; };
+		9F3FF81E24C4C4FD003DB024 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FF81D24C4C4FD003DB024 /* SecondViewController.swift */; };
+		9F3FF82024C4C8A6003DB024 /* UITabbar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FF81F24C4C8A6003DB024 /* UITabbar+Extension.swift */; };
+		9F3FF82224C4D112003DB024 /* quin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9F3FF82124C4D112003DB024 /* quin.jpeg */; };
+		9F3FF82524C4D26C003DB024 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FF82424C4D26C003DB024 /* VideoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F3FF80224C4C415003DB024 /* TransparentUITabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransparentUITabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3FF80524C4C415003DB024 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F3FF80724C4C415003DB024 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9F3FF80924C4C415003DB024 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F3FF80C24C4C415003DB024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F3FF80E24C4C416003DB024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F3FF81124C4C416003DB024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F3FF81324C4C416003DB024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3FF81B24C4C4F0003DB024 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		9F3FF81D24C4C4FD003DB024 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9F3FF81F24C4C8A6003DB024 /* UITabbar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabbar+Extension.swift"; sourceTree = "<group>"; };
+		9F3FF82124C4D112003DB024 /* quin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quin.jpeg; sourceTree = "<group>"; };
+		9F3FF82324C4D1F2003DB024 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		9F3FF82424C4D26C003DB024 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +67,16 @@
 			children = (
 				9F3FF80524C4C415003DB024 /* AppDelegate.swift */,
 				9F3FF80724C4C415003DB024 /* SceneDelegate.swift */,
-				9F3FF80924C4C415003DB024 /* ViewController.swift */,
+				9F3FF81B24C4C4F0003DB024 /* FirstViewController.swift */,
+				9F3FF81D24C4C4FD003DB024 /* SecondViewController.swift */,
+				9F3FF82124C4D112003DB024 /* quin.jpeg */,
+				9F3FF82324C4D1F2003DB024 /* video.mp4 */,
 				9F3FF80B24C4C415003DB024 /* Main.storyboard */,
 				9F3FF80E24C4C416003DB024 /* Assets.xcassets */,
 				9F3FF81024C4C416003DB024 /* LaunchScreen.storyboard */,
 				9F3FF81324C4C416003DB024 /* Info.plist */,
+				9F3FF81F24C4C8A6003DB024 /* UITabbar+Extension.swift */,
+				9F3FF82424C4D26C003DB024 /* VideoCollectionViewCell.swift */,
 			);
 			path = TransparentUITabbar;
 			sourceTree = "<group>";
@@ -127,6 +141,7 @@
 			files = (
 				9F3FF81224C4C416003DB024 /* LaunchScreen.storyboard in Resources */,
 				9F3FF80F24C4C416003DB024 /* Assets.xcassets in Resources */,
+				9F3FF82224C4D112003DB024 /* quin.jpeg in Resources */,
 				9F3FF80D24C4C415003DB024 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F3FF80A24C4C415003DB024 /* ViewController.swift in Sources */,
+				9F3FF82524C4D26C003DB024 /* VideoCollectionViewCell.swift in Sources */,
 				9F3FF80624C4C415003DB024 /* AppDelegate.swift in Sources */,
 				9F3FF80824C4C415003DB024 /* SceneDelegate.swift in Sources */,
+				9F3FF81E24C4C4FD003DB024 /* SecondViewController.swift in Sources */,
+				9F3FF81C24C4C4F0003DB024 /* FirstViewController.swift in Sources */,
+				9F3FF82024C4C8A6003DB024 /* UITabbar+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
